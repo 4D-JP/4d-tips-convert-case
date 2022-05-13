@@ -4,7 +4,7 @@
 
 #### コマンドの用途
 
-`_O_Convert case:C360`は，西欧スクリプトの`Uppercase` `Lowercase`に相当する関数で，日本語版ではひらがな⇄カタカナ，全角⇄半角，カナ⇄ローマ字といった文字列変換ができました。Mac OSの**Script Manager** APIの`TransliterateText`をコマンド化したものなので，Mac版限定のコマンドであり，v11以降のUnicodeモードでは動作しません。
+`_O_Convert case:C360`は，西欧スクリプトの`Uppercase` `Lowercase`に相当する関数で，日本語版ではひらがな⇄カタカナ，全角⇄半角，カナ⇄ローマ字といった文字列変換ができました。[漢字Talk 7](https://ja.wikipedia.org/wiki/%E6%BC%A2%E5%AD%97Talk)/[Mac OS 9](https://ja.wikipedia.org/wiki/Classic_Mac_OS)の**Script Manager** APIの`TransliterateText`をコマンド化したものなので，Mac版限定のコマンドであり，v11以降のUnicodeモードでは動作しません。
 
 #### 履歴
 
@@ -20,6 +20,19 @@
 
 この記事ではコマンドの仕様と代替案について説明します。
 
-#### オプション
+#### シンタックス
+
+```4d
+converted:=Convert case(string; what ; how) 
+```
+
+|パラメーター|タイプ|説明|
+|:-:|:-:|:-:|
+|string|Text|元の文字列|
+|what|Integer|どこを変更するか|
+|how|Integer|どのように変換するか|
+|converted|Text|変換された文字列|
+
+
 
 https://github.com/miyako/4d-plugin-kana

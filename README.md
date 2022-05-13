@@ -33,6 +33,18 @@ converted:=Convert case(string;what;how)
 |how|Integer|どのように変換するか|
 |converted|Text|変換された文字列|
 
+#### 何を変換するか
+
+コマンドは下記の「対象タイプ」オプションをサポートしていました。
+
+* `-1` すべて
+* `4` 1バイトのアルファベットと記号
+* `8` 2バイトのアルファベットと記号
+* `16` 1バイトのカタカナ
+* `32` 2バイトのカタカナ
+* `128` 2バイトのひらがな
+
+
 
 
 https://github.com/miyako/4d-plugin-kana

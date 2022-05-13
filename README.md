@@ -2,6 +2,10 @@
 
 `Convert case`は，かつて4th Dimensionに存在した文字列変換コマンドです。
 
+#### コマンドの用途
+
+`_O_Convert case:C360`は，西欧スクリプトの`Uppercase` `Lowercase`に相当する関数で，日本語版ではひらがな⇄カタカナ，全角⇄半角，カナ⇄ローマ字といった文字列変換ができました。Mac OSの**Script Manager** APIの`TransliterateText`をコマンド化したものなので，Mac版限定のコマンドであり，v11以降のUnicodeモードでは動作しません。
+
 #### 履歴
 
 * v3: コマンドが追加される
@@ -13,10 +17,8 @@
 * v2004
 * v11: Unicodeモードではコマンドが動作しなくなる
 
-**論考**: https://forums.4d.com/Post//3137321/1
+この記事ではコマンドの仕様と代替案について説明します。
 
-#### コマンドの用途
-
-`_O_Convert case:C360`は，西欧スクリプトの`Uppercase` `Lowercase`に相当する関数で，日本語版ではひらがな⇄カタカナ，全角⇄半角，カナ⇄ローマ字といった文字列変換ができます。Mac OSの**Script Manager** APIの`TransliterateText`をコマンド化したものなので，Mac版限定のコマンドであり，v11以降のUnicodeモードでは動作しません。
+#### オプション
 
 https://github.com/miyako/4d-plugin-kana

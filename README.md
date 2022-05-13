@@ -17,6 +17,6 @@
 
 #### コマンドの用途
 
-`_O_Convert case:C360`は，Mac OSの**Script Manager**
+`_O_Convert case:C360`は，西欧スクリプトの`Uppercase` `Lowercase`に相当する関数で，日本語版ではひらがな⇄カタカナ，全角⇄半角，カナ⇄ローマ字といった文字列変換ができます。Mac OSの**Script Manager** APIの`TransliterateText`をコマンド化したものなので，Mac版限定のコマンドであり，v11以降のUnicodeモードでは動作しません。
 
 https://github.com/miyako/4d-plugin-kana

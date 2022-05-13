@@ -2,7 +2,7 @@
 
 `Convert case`は，かつて4th Dimensionに存在した文字列変換コマンドです。
 
-### 履歴
+履歴
 ===
 
 * [v6.5](https://github.com/4D-JP/4d-tips-convert-case/files/8684044/Convert.case-6.5.pdf): コマンドが追加される

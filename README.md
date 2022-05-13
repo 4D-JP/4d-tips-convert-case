@@ -10,7 +10,7 @@
 * v6.7
 * [v6.8](https://github.com/4D-JP/4d-tips-convert-case/files/8684041/Convert.case-6.8.pdf): 「Macintosh版のみ」の注記が追加される
 * v2003: ランゲージリファレンスからコマンドに関する記述が削除される
-* v2004:
+* v2004
 * v11: Unicodeモードではコマンドが動作しなくなる
 
 **論考**: https://forums.4d.com/Post//3137321/1

@@ -23,13 +23,13 @@
 #### シンタックス
 
 ```4d
-converted:=Convert case(string; what ; how) 
+converted:=Convert case(string;what;how) 
 ```
 
 |パラメーター|タイプ|説明|
 |:-|:-:|:-|
 |string|Text|元の文字列|
-|what|Integer|どこを変更するか|
+|what|Integer|なにを変更するか|
 |how|Integer|どのように変換するか|
 |converted|Text|変換された文字列|
 

@@ -27,7 +27,7 @@ converted:=Convert case(string; what ; how)
 ```
 
 |パラメーター|タイプ|説明|
-|:-:|:-:|:-:|
+|:-|:-:|:-|
 |string|Text|元の文字列|
 |what|Integer|どこを変更するか|
 |how|Integer|どのように変換するか|

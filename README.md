@@ -16,6 +16,7 @@
 * v2003: ランゲージリファレンスからコマンドに関する記述が削除される
 * v2004
 * v11: Unicodeモードでコマンドが動作しなくなる
+* [v12](https://github.com/4D-JP/4d-tips-convert-case/files/8684135/4d-deprecated-features-12.pdf): 廃止予定コマンドのリストに掲載される
 
 この記事ではコマンドの仕様と代替案について説明します。
 

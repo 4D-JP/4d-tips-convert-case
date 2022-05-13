@@ -10,15 +10,15 @@
 
 |バージョン|説明|
 |:-|:-|
-|v3|コマンドが追加される|
-|[v6.0](https://github.com/4D-JP/4d-tips-convert-case/files/8684081/Convert.case-6.0.pdf)||
-|[v6.5](https://github.com/4D-JP/4d-tips-convert-case/files/8684044/Convert.case-6.5.pdf)||
-|v6.7||
-|[v6.8](https://github.com/4D-JP/4d-tips-convert-case/files/8684041/Convert.case-6.8.pdf)|「Macintosh版のみ」の注記が追加される|
-|v2003|ランゲージリファレンスからコマンドに関する記述が削除される|
-|v2004||
-|v11|Unicodeモードでコマンドが動作しなくなる|
-|[v12](https://github.com/4D-JP/4d-tips-convert-case/files/8684135/4d-deprecated-features-12.pdf)|廃止予定機能のリストにコマンドが掲載される|
+|3|コマンドが追加される|
+|[6.0](https://github.com/4D-JP/4d-tips-convert-case/files/8684081/Convert.case-6.0.pdf)||
+|[6.5](https://github.com/4D-JP/4d-tips-convert-case/files/8684044/Convert.case-6.5.pdf)||
+|6.7||
+|[6.8](https://github.com/4D-JP/4d-tips-convert-case/files/8684041/Convert.case-6.8.pdf)|「Macintosh版のみ」の注記が追加される|
+|2003|ランゲージリファレンスからコマンドに関する記述が削除される|
+|2004||
+|11|Unicodeモードでコマンドが動作しなくなる|
+|[12](https://github.com/4D-JP/4d-tips-convert-case/files/8684135/4d-deprecated-features-12.pdf)|廃止予定機能のリストにコマンドが掲載される|
 
 この記事ではコマンドの仕様と代替案について説明します。
 

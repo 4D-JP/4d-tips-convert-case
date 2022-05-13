@@ -8,15 +8,17 @@
 
 #### 履歴
 
-* v3: コマンドが追加される
-* [v6.0](https://github.com/4D-JP/4d-tips-convert-case/files/8684081/Convert.case-6.0.pdf)
-* [v6.5](https://github.com/4D-JP/4d-tips-convert-case/files/8684044/Convert.case-6.5.pdf)
-* v6.7
-* [v6.8](https://github.com/4D-JP/4d-tips-convert-case/files/8684041/Convert.case-6.8.pdf): 「Macintosh版のみ」の注記が追加される
-* v2003: ランゲージリファレンスからコマンドに関する記述が削除される
-* v2004
-* v11: Unicodeモードでコマンドが動作しなくなる
-* [v12](https://github.com/4D-JP/4d-tips-convert-case/files/8684135/4d-deprecated-features-12.pdf): 廃止予定機能のリストにコマンドが掲載される
+|バージョン|説明|
+|:-|:-|
+|v3|コマンドが追加される|
+|[v6.0](https://github.com/4D-JP/4d-tips-convert-case/files/8684081/Convert.case-6.0.pdf)||
+|[v6.5](https://github.com/4D-JP/4d-tips-convert-case/files/8684044/Convert.case-6.5.pdf)||
+|v6.7||
+|[v6.8](https://github.com/4D-JP/4d-tips-convert-case/files/8684041/Convert.case-6.8.pdf)|「Macintosh版のみ」の注記が追加される|
+|v2003|ランゲージリファレンスからコマンドに関する記述が削除される|
+|v2004||
+|v11|Unicodeモードでコマンドが動作しなくなる|
+|[v12](https://github.com/4D-JP/4d-tips-convert-case/files/8684135/4d-deprecated-features-12.pdf)|廃止予定機能のリストにコマンドが掲載される|
 
 この記事ではコマンドの仕様と代替案について説明します。
 
@@ -38,7 +40,7 @@ converted:=Convert case(string;what;how)
 コマンドは下記の「対象タイプ」オプションをサポートしていました。
 
 |値|説明|
-|:-|:-|
+|-:|:-|
 |`-1`|すべて|
 |`4`|1バイトのアルファベットと記号|
 |`8`|2バイトのアルファベットと記号|

@@ -106,10 +106,6 @@ converted:=Convert case(string;what;how)
 
 前述したように，コマンドのパラメーター指定にとても癖があるので，ラッパー関数を開発するのではなく，コマンドの目的を見極めた上で用途別に代替コマンドを使用することが推奨されます。
 
-ローマ字変換は[text-convert](https://github.com/miyako/4d-plugin-text-convert)
-
-前述したように，コマンドのパラメーター指定にとても癖があるので，ラッパー関数を開発するのではなく，コマンドの目的を見極めた上で用途別に代替コマンドを使用することが推奨されます。
-
 ローマ字変換: [text-convert](https://github.com/miyako/4d-plugin-text-convert)
 
 かな変換: [kana](https://github.com/miyako/4d-plugin-kana)
